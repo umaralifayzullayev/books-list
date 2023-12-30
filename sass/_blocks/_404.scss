@@ -1,0 +1,40 @@
+.not-found {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.not-found__container-mini {
+	align-self: center;
+}
+.not-found__body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 72px;
+}
+.not-found__img {
+	width: 720px;
+	height: 476px;
+}
+.not-found__link-list {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+a.not-found__link {
+	display: flex;
+	width: 240px;
+	padding: 10px 24px;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+	border-radius: 4px;
+	&:first-child {
+		background: #6200ee;
+		color: #fefefe;
+	}
+	&:last-child {
+		border: 1px solid #6200ee;
+		color: #6200ee;
+	}
+}

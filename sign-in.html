@@ -3,20 +3,20 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Sign Up Page</title>
+		<title>Sign-in Page</title>
 		<link rel="stylesheet" href="css/main.min.css" />
 	</head>
 	<body>
 		<main class="main">
-			<section class="sign-up">
-				<div class="sign-up__mini-container">
-					<div class="sign-up__body">
-						<h1 class="sign-up__title">Sign up</h1>
-						<div class="sign-up__btn-list">
-							<button id="sign-up-with-google" class="sign-up__google-btn">
-								<div class="sign-up__google-body">
+			<section class="sign-in">
+				<div class="sign-in__mini-container">
+					<div class="sign-in__body">
+						<h1 class="sign-in__title">Sign up</h1>
+						<div class="sign-in__btn-list">
+							<button id="sign-in-with-google" class="sign-in__google-btn">
+								<div class="sign-in__google-body">
 									<svg
-										class="sign-up__google-img"
+										class="sign-in__google-img"
 										xmlns="http://www.w3.org/2000/svg"
 										width="18"
 										height="18"
@@ -48,13 +48,13 @@
 											fill="#EA4335"
 										/>
 									</svg>
-									<span class="sign-up__google-text">Continue with Google</span>
+									<span class="sign-in__google-text">Continue with Google</span>
 								</div>
 							</button>
-							<button id="sign-up-with-facebook" class="sign-up__facebook-btn">
-								<div class="sign-up__facebook-body">
+							<button id="sign-in-with-facebook" class="sign-in__facebook-btn">
+								<div class="sign-in__facebook-body">
 									<svg
-										class="sign-up__facebook-img"
+										class="sign-in__facebook-img"
 										xmlns="http://www.w3.org/2000/svg"
 										width="24"
 										height="24"
@@ -83,48 +83,57 @@
 											</linearGradient>
 										</defs>
 									</svg>
-									<span class="sign-up__facebook-text">Continue with Google</span>
+									<span class="sign-in__facebook-text">Continue with Google</span>
 								</div>
 							</button>
 						</div>
-						<span class="sign-up__or">OR</span>
-						<form id="sign-up-form" class="sign-up__form" method="post">
-							<label id="sign-up-label-name" class="sign-up__form-label-name"
+						<span class="sign-in__or">OR</span>
+						<form id="sign-in-form" class="sign-in__form" method="post">
+							<label id="sign-in-label-name" class="sign-in__form-label-name"
 								>Your name
 								<input
-									id="sign-up-input-name"
-									class="sign-up__form-input-name"
+									id="sign-in-input-name"
+									class="sign-in__form-input-name"
 									type="text"
 									placeholder="Enter your name"
 								/>
 							</label>
-							<label id="sign-up-label-email" class="sign-up__form-label-email"
+							<label id="sign-in-label-email" class="sign-in__form-label-email"
 								>Your email
 								<input
-									id="sign-up-input-email"
-									class="sign-up__form-input-email"
+									id="sign-in-input-email"
+									class="sign-in__form-input-email"
 									type="text"
 									placeholder="Enter your email"
 								/>
 							</label>
-							<label id="sign-up-label-username" class="sign-up__form-label-username"
+							<label id="sign-in-label-username" class="sign-in__form-label-username"
 								>Your username
 								<input
-									id="sign-up-input-username"
-									class="sign-up__form-input-username"
+									id="sign-in-input-username"
+									class="sign-in__form-input-username"
 									type="text"
 									placeholder="Enter your username"
 								/>
 							</label>
-							<button class="sign-up__form-btn" type="submit">Button</button>
-							<span class="sign-up__link-text"
-								>Already signed up? <a href="sign-in.html" class="sign-up__link">Go to sign in</a>.</span
+							<label id="sign-in-label-password" class="sign-in__form-label-password"
+								>Your password
+								<input
+									id="sign-in-input-password"
+									class="sign-in__form-input-password"
+									type="password"
+									placeholder="Enter your password"
+								/>
+							</label>
+							<button class="sign-in__form-btn" type="submit">Button</button>
+							<span class="sign-in__link-text"
+								>Already signed up? <a href="sign-in.html" class="sign-in__link">Go to sign up</a>.</span
 							>
 						</form>
 					</div>
 				</div>
 			</section>
 		</main>
-		<script src="js/sign-up.js"></script>
+		<script src="js/sign-in.js"></script>
 	</body>
 </html>
