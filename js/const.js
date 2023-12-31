@@ -1,3 +1,4 @@
+// overall array
 const array = [
 	{
 		title: "Lorem ipsum",
@@ -31,20 +32,10 @@ const array = [
 	},
 ];
 
+// id berish
 const giveId = (arr) => {
 	arr.forEach((el, i) => {
 		el.id = i;
 	});
 };
-
-const dom = (arr, list) => {
-	arr.forEach(el => {
-		let item = document.createElement("li");
-		item.setAttribute("class", "hero__list-item list__item");
-		let deleteBtn = document.createElement("button");
-		let deleteBtnImg = document.createElement("img");
-	});
-};
-
 giveId(array);
-console.log(array);
