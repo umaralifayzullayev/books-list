@@ -1,0 +1,59 @@
+.hero__list.list {
+	display: flex;
+	flex-wrap: wrap;
+}
+.hero__list-item.list__item {
+	width: 400px;
+	padding: 32px;
+	border-radius: 12px;
+	border: 1px solid #ebebeb;
+	background: #fefefe;
+	box-shadow: 0px 4px 24px 0px rgba(51, 51, 51, 0.08);
+	position: relative;
+	z-index: 1;
+}
+.hero__list-delete-btn.list__delete-btn {
+	width: 32px;
+	height: 32px;
+	display: flex;
+	padding: 8px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 6px;
+	background-color: #ff4d4f;
+	box-shadow: 0px 6px 32px 0px rgba(21, 21, 21, 0.48);
+	top: 32px;
+	right: 32px;
+	position: absolute;
+	z-index: 10;
+}
+.hero__list-delete-btn-img.list__delete-btn-img {
+	width: 16px;
+	height: 16px;
+}
+.hero__list-btn.list__btn {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+.hero__list-title.list__title {
+	color: #151515;
+	font-family: Montserrat;
+	font-weight: 600;
+}
+.hero__list-desc-text.list__desc-text {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 150%; /* 21px */
+	text-align: left;
+}
+.hero__list-number-text.list__number-text {
+	display: flex;
+	margin: 0 auto;
+	padding: 2px 12px;
+	color: #9654f4;
+	font-size: 12px;
+	font-weight: 400;
+	border-radius: 8.5px;
+	background-color: #efe6fd;
+}
