@@ -3,9 +3,9 @@ const dom = (arr, list) => {
 	arr.forEach((el) => {
 		let item = document.createElement("li");
 		item.setAttribute("class", "hero__list-item list__item");
-
 		let deleteBtn = document.createElement("button");
 		deleteBtn.setAttribute("class", "hero__list-delete-btn list__delete-btn");
+		deleteBtn.dataset.id = el.id;
 		let deleteBtnImg = document.createElement("img");
 		deleteBtnImg.src = "../images/home/deleteIcon.svg";
 		deleteBtnImg.setAttribute("class", "hero__list-delete-btn-img list__delete-btn-img");
